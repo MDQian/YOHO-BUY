@@ -146,7 +146,7 @@
             self.tapView.alpha = 0.1;
         }
        
-        
+//       这里有坑
         [self.tapView addGestureRecognizer:self.tapHideSideMenu];
         [self.tapView addGestureRecognizer:self.panHideSideMenu];
         [self.view insertSubview:self.tapView belowSubview:self.sideMenuVC.view];
