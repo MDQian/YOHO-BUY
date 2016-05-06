@@ -1,0 +1,51 @@
+//
+//  YH_Mall_iPhone.pch
+//  YH_Mall_iPhone
+//
+//  Created by 马马 on 16/4/6.
+//  Copyright © 2016年 马殿乾. All rights reserved.
+//
+
+#define YH_Mall_iPhone_pch
+/*
+ pch里面所有东西,被所有文件共享
+ 
+ pch作用
+ 1.存放公用宏
+ 2.存放公用头文件
+ 3.自定义Log
+ 
+ pch步骤:一定要提前编译
+ 
+ */
+
+
+#define iphone6P (XMScreenH == 736)
+#define iphone6 (XMScreenH == 667)
+#define iphone5 (XMScreenH == 568)
+#define iphone4 (XMScreenH == 480)
+#define XMScreenH [UIScreen mainScreen].bounds.size.height
+#define XMScreenW [UIScreen mainScreen].bounds.size.width
+#define XMColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define XMGlobeColor XMColor(215, 215, 215)
+#define XMRandomColor XMColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+
+#import "UIView+Frame.h"
+#import "UIBarButtonItem+Item.h"
+
+#import "UIColor+Hex.h"
+
+
+// ...:宏里面可变参数
+
+#define XMFunc XMLog(@"%s",__func__)
+
+#ifdef DEBUG // 调试
+
+#define XMLog(...) NSLog(__VA_ARGS__)
+
+#else // 发布
+
+#define XMLog(...)
+
+#endif /* YH_Mall_iPhone_pch */
