@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface MDQHomeViewController : UIViewController
+#import "MDQSlideSlipVC.h"
+@interface MDQHomeViewController : MDQSlideSlipVC
 
 @end

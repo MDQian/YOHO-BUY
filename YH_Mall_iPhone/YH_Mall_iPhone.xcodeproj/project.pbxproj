@@ -19,8 +19,9 @@
 		2C07CC891CB522E8007A85F6 /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C07CC821CB522E8007A85F6 /* UITextField+Placeholder.m */; };
 		2C07CC8A1CB522E8007A85F6 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C07CC841CB522E8007A85F6 /* UIView+Frame.m */; };
 		2C07CC8E1CB5232E007A85F6 /* XMGFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C07CC8D1CB5232E007A85F6 /* XMGFileManager.m */; };
-		2C1D05971CC384FE00465C7A /* MDQSideMeneTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1D05951CC384FE00465C7A /* MDQSideMeneTypeCell.m */; };
-		2C1D05981CC384FE00465C7A /* MDQSideMeneTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C1D05961CC384FE00465C7A /* MDQSideMeneTypeCell.xib */; };
+		2C3E23871CE01BC6005E063B /* MDQSideMeneTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3E23831CE01BC6005E063B /* MDQSideMeneTypeCell.m */; };
+		2C3E23881CE01BC6005E063B /* MDQSideMeneTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C3E23841CE01BC6005E063B /* MDQSideMeneTypeCell.xib */; };
+		2C3E23891CE01BC6005E063B /* MDQSlideSlipVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3E23861CE01BC6005E063B /* MDQSlideSlipVC.m */; };
 		2C4B6FCC1CB75055003F040F /* launch_480.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C4B6FC31CB75055003F040F /* launch_480.png */; };
 		2C4B6FCD1CB75055003F040F /* launch_568.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C4B6FC41CB75055003F040F /* launch_568.png */; };
 		2C4B6FCE1CB75055003F040F /* launch_750.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C4B6FC51CB75055003F040F /* launch_750.png */; };
@@ -84,9 +85,11 @@
 		2C07CC841CB522E8007A85F6 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		2C07CC8C1CB5232E007A85F6 /* XMGFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGFileManager.h; sourceTree = "<group>"; };
 		2C07CC8D1CB5232E007A85F6 /* XMGFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGFileManager.m; sourceTree = "<group>"; };
-		2C1D05941CC384FE00465C7A /* MDQSideMeneTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDQSideMeneTypeCell.h; sourceTree = "<group>"; };
-		2C1D05951CC384FE00465C7A /* MDQSideMeneTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDQSideMeneTypeCell.m; sourceTree = "<group>"; };
-		2C1D05961CC384FE00465C7A /* MDQSideMeneTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDQSideMeneTypeCell.xib; sourceTree = "<group>"; };
+		2C3E23821CE01BC6005E063B /* MDQSideMeneTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDQSideMeneTypeCell.h; sourceTree = "<group>"; };
+		2C3E23831CE01BC6005E063B /* MDQSideMeneTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDQSideMeneTypeCell.m; sourceTree = "<group>"; };
+		2C3E23841CE01BC6005E063B /* MDQSideMeneTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDQSideMeneTypeCell.xib; sourceTree = "<group>"; };
+		2C3E23851CE01BC6005E063B /* MDQSlideSlipVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDQSlideSlipVC.h; sourceTree = "<group>"; };
+		2C3E23861CE01BC6005E063B /* MDQSlideSlipVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDQSlideSlipVC.m; sourceTree = "<group>"; };
 		2C4B6FC31CB75055003F040F /* launch_480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_480.png; sourceTree = "<group>"; };
 		2C4B6FC41CB75055003F040F /* launch_568.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_568.png; sourceTree = "<group>"; };
 		2C4B6FC51CB75055003F040F /* launch_750.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_750.png; sourceTree = "<group>"; };
@@ -181,6 +184,7 @@
 				2C07CC561CB52179007A85F6 /* Main(控制器) */,
 				2C07CC5E1CB52179007A85F6 /* Other */,
 				2C07CC771CB5221B007A85F6 /* AD(广告) */,
+				2C3E23811CE01BC6005E063B /* SideSlipableVC(可侧滑的VC) */,
 				2C07CC521CB52179007A85F6 /* Home(首页) */,
 				2C07CC4E1CB52179007A85F6 /* CateGories(分类) */,
 				2C07CC691CB52179007A85F6 /* Stroll(逛) */,
@@ -253,9 +257,6 @@
 		2C07CC551CB52179007A85F6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2C1D05941CC384FE00465C7A /* MDQSideMeneTypeCell.h */,
-				2C1D05951CC384FE00465C7A /* MDQSideMeneTypeCell.m */,
-				2C1D05961CC384FE00465C7A /* MDQSideMeneTypeCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -496,6 +497,18 @@
 			path = File;
 			sourceTree = "<group>";
 		};
+		2C3E23811CE01BC6005E063B /* SideSlipableVC(可侧滑的VC) */ = {
+			isa = PBXGroup;
+			children = (
+				2C3E23851CE01BC6005E063B /* MDQSlideSlipVC.h */,
+				2C3E23861CE01BC6005E063B /* MDQSlideSlipVC.m */,
+				2C3E23821CE01BC6005E063B /* MDQSideMeneTypeCell.h */,
+				2C3E23831CE01BC6005E063B /* MDQSideMeneTypeCell.m */,
+				2C3E23841CE01BC6005E063B /* MDQSideMeneTypeCell.xib */,
+			);
+			path = "SideSlipableVC(可侧滑的VC)";
+			sourceTree = "<group>";
+		};
 		2C4B6FA71CB74651003F040F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -638,9 +651,9 @@
 				2C07CC461CB51E1A007A85F6 /* LaunchScreen.storyboard in Resources */,
 				2C4B6FD41CB75055003F040F /* LaunchImage@2x.png in Resources */,
 				2C4B6FCE1CB75055003F040F /* launch_750.png in Resources */,
-				2C1D05981CC384FE00465C7A /* MDQSideMeneTypeCell.xib in Resources */,
 				2C4B6FD01CB75055003F040F /* LaunchImage-700-568h@2x.png in Resources */,
 				2C4B6FCF1CB75055003F040F /* LaunchImage-568h@2x.png in Resources */,
+				2C3E23881CE01BC6005E063B /* MDQSideMeneTypeCell.xib in Resources */,
 				2C07CC431CB51E1A007A85F6 /* Assets.xcassets in Resources */,
 				2C4B6FD21CB75055003F040F /* LaunchImage-800-667h@2x.png in Resources */,
 				2C6DF0D11CB92952000048B8 /* MDQClassViewController.xib in Resources */,
@@ -711,6 +724,7 @@
 				2C787BF21CB637AF00B3551A /* MDQNavgationController.m in Sources */,
 				2C07CC8A1CB522E8007A85F6 /* UIView+Frame.m in Sources */,
 				2C07CC871CB522E8007A85F6 /* UIImage+Antialias.m in Sources */,
+				2C3E23891CE01BC6005E063B /* MDQSlideSlipVC.m in Sources */,
 				2C787BDF1CB532CE00B3551A /* MDQCateGoriesViewController.m in Sources */,
 				2C787BE51CB5338500B3551A /* MDQShopCartViewController.m in Sources */,
 				2C07CC761CB52179007A85F6 /* main.m in Sources */,
@@ -718,7 +732,6 @@
 				2C787BE81CB5339B00B3551A /* MDQMineViewController.m in Sources */,
 				2C787BDC1CB532A500B3551A /* MDQHomeViewController.m in Sources */,
 				2C07CC8E1CB5232E007A85F6 /* XMGFileManager.m in Sources */,
-				2C1D05971CC384FE00465C7A /* MDQSideMeneTypeCell.m in Sources */,
 				2C07CC861CB522E8007A85F6 /* UIColor+Hex.m in Sources */,
 				2C6DF0D01CB92952000048B8 /* MDQClassViewController.m in Sources */,
 				2C6DF0CB1CB928EE000048B8 /* MDQADViewController.m in Sources */,
@@ -726,6 +739,7 @@
 				2C787BEE1CB544BE00B3551A /* UIImage+MDQRender.m in Sources */,
 				2C07CC891CB522E8007A85F6 /* UITextField+Placeholder.m in Sources */,
 				2C4B6FD71CB75717003F040F /* MDQStrollViewController.m in Sources */,
+				2C3E23871CE01BC6005E063B /* MDQSideMeneTypeCell.m in Sources */,
 				2C07CC751CB52179007A85F6 /* AppDelegate.m in Sources */,
 				2C787BEB1CB5342100B3551A /* MDQTabbarController.m in Sources */,
 			);
