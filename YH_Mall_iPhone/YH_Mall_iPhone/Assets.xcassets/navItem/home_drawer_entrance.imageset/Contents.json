@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "home_drawer_entrance.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "home_drawer_entrance.png",
       "scale" : "2x"
     },
     {

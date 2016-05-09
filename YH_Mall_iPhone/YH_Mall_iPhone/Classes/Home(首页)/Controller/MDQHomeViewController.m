@@ -37,15 +37,15 @@
     self.navigationItem.title = @"首页";
     self.view.backgroundColor = [UIColor whiteColor];
     // 左1
-    UIBarButtonItem *leftItem1 = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine_setting_icon_n"] highImage:nil target:self action:@selector(showSideMenu)];
+    UIBarButtonItem *leftItem1 = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"home_drawer_entrance"] highImage:[UIImage imageNamed:@"shared_listbuttom_highlighted"] target:self action:@selector(showSideMenu)];
     // 左2
-    UIBarButtonItem *leftItem2 = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine_setting_icon_n"] highImage:[UIImage imageNamed:@"mine_setting_icon_n"] target:self action:@selector(searchGoods)];
+    UIBarButtonItem *leftItem2 = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"shared_searchbuttom_normal"] highImage:[UIImage imageNamed:@"shared_searchbuttom_highlighted"] target:self action:@selector(searchGoods)];
     
     NSArray *butArr = [[NSArray alloc]initWithObjects:leftItem1, leftItem2, nil];
     self.navigationItem.leftBarButtonItems = butArr;
-   
-     // 右边
-    UIBarButtonItem *rightItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine_setting_icon_n"] highImage:[UIImage imageNamed:@"mine_setting_icon_n"] target:self action:@selector(test)];
+    
+    // 右边
+    UIBarButtonItem *rightItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"shared_scanbuttom_normal"] highImage:[UIImage imageNamed:@"shared_scanbuttom_highlighted"] target:self action:@selector(test)];
     self.navigationItem.rightBarButtonItem = rightItem;
     
     // 中间 titleView

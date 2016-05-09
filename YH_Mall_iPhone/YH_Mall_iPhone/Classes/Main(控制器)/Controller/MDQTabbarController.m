@@ -106,13 +106,13 @@
         for (UINavigationController *navc in self.childViewControllers) {
 //            [navc.view setNeedsDisplay];
             if ([self.typeOfNumber isEqualToString: @"boy"])
-                [navc.navigationBar setBackgroundImage:[UIImage imageNamed:@"shared_navbar_bg"] forBarMetrics:UIBarMetricsDefault];
+                [navc.navigationBar setBackgroundImage:[UIImage imageNamed:@"shared_navbar2_boy"] forBarMetrics:UIBarMetricsDefault];
             if ([self.typeOfNumber isEqualToString: @"girl"])
-                [navc.navigationBar setBackgroundImage:[UIImage imageNamed:@"shared_navbargirl_bg"] forBarMetrics:UIBarMetricsDefault];
+                [navc.navigationBar setBackgroundImage:[UIImage imageNamed:@"shared_navbar2_girl"] forBarMetrics:UIBarMetricsDefault];
             if ([self.typeOfNumber isEqualToString: @"kids"])
-                [navc.navigationBar setBackgroundImage:[UIImage imageNamed:@"shared_navbar_bg-1"] forBarMetrics:UIBarMetricsDefault];
+                [navc.navigationBar setBackgroundImage:[UIImage imageNamed:@"shared_navbar2_kids"] forBarMetrics:UIBarMetricsDefault];
             if ([self.typeOfNumber isEqualToString: @"life"])
-                [navc.navigationBar setBackgroundImage:[UIImage imageNamed:@"shared_navbar_bg"] forBarMetrics:UIBarMetricsDefault];
+                [navc.navigationBar setBackgroundImage:[UIImage imageNamed:@"shared_navbar2_life"] forBarMetrics:UIBarMetricsDefault];
         }
     }
    
@@ -176,13 +176,13 @@
     // --------------设置导航条----------------
     //    设置背景(设置背影图片时, 必须得要使用)
     if ([type isEqualToString: @"boy"])
-        [bar setBackgroundImage:[UIImage imageNamed:@"shared_navbar_bg"] forBarMetrics:UIBarMetricsDefault];
+        [bar setBackgroundImage:[UIImage imageNamed:@"shared_navbar2_boy"] forBarMetrics:UIBarMetricsDefault];
     if ([type isEqualToString: @"girl"])
-        [bar setBackgroundImage:[UIImage imageNamed:@"shared_navbargirl_bg"] forBarMetrics:UIBarMetricsDefault];
+        [bar setBackgroundImage:[UIImage imageNamed:@"shared_navbar2_girl"] forBarMetrics:UIBarMetricsDefault];
     if ([type isEqualToString: @"kids"])
-        [bar setBackgroundImage:[UIImage imageNamed:@"shared_navbar_bg-1"] forBarMetrics:UIBarMetricsDefault];
+        [bar setBackgroundImage:[UIImage imageNamed:@"shared_navbar2_kids"] forBarMetrics:UIBarMetricsDefault];
     if ([type isEqualToString: @"life"])
-        [bar setBackgroundImage:[UIImage imageNamed:@"shared_navbar_bg"] forBarMetrics:UIBarMetricsDefault];
+        [bar setBackgroundImage:[UIImage imageNamed:@"shared_navbar2_life"] forBarMetrics:UIBarMetricsDefault];
 
 }
 // 自定义后这个就没被调用。因为 用的都是自定义的

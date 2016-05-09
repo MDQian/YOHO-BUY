@@ -12,9 +12,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    self.navigationItem.title = @"逛";
-    self.view.backgroundColor = [UIColor whiteColor];
+    [self setUpNavBar];
 }
+
+#pragma mark - ———— 设置导航栏 ————
+// 设置导航条内容
+- (void)setUpNavBar
+{
+    // 标题和背景色
+    self.navigationItem.title = @"逛";
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    // 左1
+    UIBarButtonItem *leftItem1 = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"home_drawer_entrance"] highImage:[UIImage imageNamed:@"shared_listbuttom_highlighted"] target:self action:@selector(left)];
+    self.navigationItem.leftBarButtonItem = leftItem1;
+    
+    // 右边
+    UIBarButtonItem *rightItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"shared_photobuttom_normal"] highImage:[UIImage imageNamed:@"shared_photobuttom_highlighted"] target:self action:@selector(right)];
+    self.navigationItem.rightBarButtonItem = rightItem;
+    
+    // 中间 titleView
+    //    UIImageView *imageV = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 40,50 )];
+    //    imageV.image = [UIImage imageNamed:@"shared_logo1"];
+    //    self.navigationItem.titleView = imageV;
+}
+- (void)left{}
+- (void)right{}
 
 @end

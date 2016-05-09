@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "login_register_back.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "login_register_back.png",
       "scale" : "2x"
     },
     {
