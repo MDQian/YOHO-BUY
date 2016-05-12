@@ -28,7 +28,7 @@
 {
     // 标题和背景色
     self.navigationItem.title = @"分类";
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = XMColor(77, 215, 193);
     // 左1
     UIBarButtonItem *leftItem1 = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"home_drawer_entrance"]
                                                       highImage:[UIImage imageNamed:@"shared_listbuttom_highlighted"]

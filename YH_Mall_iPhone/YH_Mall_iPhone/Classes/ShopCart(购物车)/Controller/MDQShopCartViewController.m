@@ -21,13 +21,15 @@
 {
     // 标题和背景色
     self.navigationItem.title = @"购物车";
-    self.view.backgroundColor = [UIColor lightGrayColor];
+    self.view.backgroundColor = XMColor(77, 215, 193);
     
     
-    //    // 右边
-    //    UIBarButtonItem *rightItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"callphone"] highImage:[UIImage imageNamed:@"callphone"] target:self action:@selector(right)];
-    //    self.navigationItem.rightBarButtonItem = rightItem;
-    //    UIBarButtonItem *rightItem = [UIBarButtonItem  initWithTitle:@"编辑" style:UIBarButtonItemStylePlain  target:self action:@selector(right)];
+   // 右边
+    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] init];
+    rightItem.title = @"编辑";
+    rightItem.tintColor = [UIColor whiteColor];
+    self.navigationItem.rightBarButtonItem = rightItem;
+    
     
     
     

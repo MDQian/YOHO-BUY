@@ -261,6 +261,7 @@
 		2C07CC561CB52179007A85F6 /* Main(控制器) */ = {
 			isa = PBXGroup;
 			children = (
+				2C3E23811CE01BC6005E063B /* SideSlipableVC(可侧滑的VC) */,
 				2C07CC571CB52179007A85F6 /* Controller */,
 				2C07CC581CB52179007A85F6 /* Model */,
 				2C07CC591CB52179007A85F6 /* View */,

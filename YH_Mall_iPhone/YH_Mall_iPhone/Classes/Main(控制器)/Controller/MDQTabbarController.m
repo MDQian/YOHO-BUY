@@ -63,7 +63,7 @@
         case 3: self.typeOfNumber = @"kids";  break;
         case 4: self.typeOfNumber = @"life";  break;
     }
-    NSLog(@"%@",self.typeOfNumber);
+//    NSLog(@"%@",self.typeOfNumber);
     
     // tab 按钮图片
     [self setUpAllTileButton:self.typeOfNumber];
@@ -93,7 +93,7 @@
             case 3: self.typeOfNumber = @"life";  break;
             case 4: self.typeOfNumber = @"life";  break;
         }
-        NSLog(@"侧滑点击后的种类%@",self.typeOfNumber);
+//        NSLog(@"侧滑点击后的种类%@",self.typeOfNumber);
         // tab 按钮图片
         [self setUpAllTileButton:self.typeOfNumber];
         // nav 设置导航栏背景色
@@ -171,7 +171,11 @@
     //    NSLog(@"导航控制器----将要显示界面 %@",self.typeOfTab);
     //    //获取指定类下面的导航条
     UINavigationBar *bar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[[MDQNavgationController class]]];
-    NSLog(@"---%@",type);
+    //  设置导航栏的边界灰线
+    [bar setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+    bar.shadowImage = [[UIImage alloc] init];
+    
+//    NSLog(@"---%@",type);
     //    NSLog(@"-----%@",bar);
     // --------------设置导航条----------------
     //    设置背景(设置背影图片时, 必须得要使用)

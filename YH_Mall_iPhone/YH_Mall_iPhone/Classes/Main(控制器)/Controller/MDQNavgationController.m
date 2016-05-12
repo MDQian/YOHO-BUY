@@ -14,28 +14,30 @@
 
 @implementation MDQNavgationController
 
-//-(void)test
-//{
-//        NSLog(@"导航控制器----将要显示界面 %@",self.typeOfTab);
-//        不在这里考虑了，这里设置是错误的，或者即便可以做到，也没啥好处
-//      获取指定类下面的导航条
-//        UINavigationBar *bar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[[MDQNavgationController class]]];
-//        // --------------设置导航条----------------
-//        //设置背景(设置背影图片时, 必须得要使用)
-//        if ([self.typeOfTab isEqualToString: @"boy"])
-//            [bar setBackgroundImage:[UIImage imageNamed:@"shared_navbar_bg"] forBarMetrics:UIBarMetricsDefault];
-//        
-//        if ([self.typeOfTab isEqualToString: @"girl"])
-//            [bar setBackgroundImage:[UIImage imageNamed:@"shared_navbargirl_bg"] forBarMetrics:UIBarMetricsDefault];
-//        
-//        if ([self.typeOfTab isEqualToString: @"kids"])
-//            [bar setBackgroundImage:[UIImage imageNamed:@"shared_navbar_bg-1"] forBarMetrics:UIBarMetricsDefault];
-//        
-//        if ([self.typeOfTab isEqualToString: @"life"])
-//            
-//            [bar setBackgroundImage:[UIImage imageNamed:@"shared_navbar_bg"] forBarMetrics:UIBarMetricsDefault];
-//}
-
+// 测试用的垃圾代码。经验啊😊
+/*
+-(void)test
+{
+        NSLog(@"导航控制器----将要显示界面 %@",self.typeOfTab);
+        不在这里考虑了，这里设置是错误的，或者即便可以做到，也没啥好处
+      获取指定类下面的导航条
+        UINavigationBar *bar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[[MDQNavgationController class]]];
+        // --------------设置导航条----------------
+        //设置背景(设置背影图片时, 必须得要使用)
+        if ([self.typeOfTab isEqualToString: @"boy"])
+            [bar setBackgroundImage:[UIImage imageNamed:@"shared_navbar_bg"] forBarMetrics:UIBarMetricsDefault];
+        
+        if ([self.typeOfTab isEqualToString: @"girl"])
+            [bar setBackgroundImage:[UIImage imageNamed:@"shared_navbargirl_bg"] forBarMetrics:UIBarMetricsDefault];
+        
+        if ([self.typeOfTab isEqualToString: @"kids"])
+            [bar setBackgroundImage:[UIImage imageNamed:@"shared_navbar_bg-1"] forBarMetrics:UIBarMetricsDefault];
+        
+        if ([self.typeOfTab isEqualToString: @"life"])
+            
+            [bar setBackgroundImage:[UIImage imageNamed:@"shared_navbar_bg"] forBarMetrics:UIBarMetricsDefault];
+}
+*/
 
 
 // 界面加载完成之后调用
@@ -48,6 +50,10 @@
     // 控制器手势什么时候触发
     pan.delegate = self;
     self.interactivePopGestureRecognizer.enabled = NO;
+    
+    // 隐藏到航条的下边阴影线条  这里设置没用？
+//    [self.navigationController.navigationBar setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+//    self.navigationController.navigationBar.shadowImage = [[UIImage alloc] init];
 
     // Bug:假死状态:程序一直在跑,但是界面死了
     // 在根控制器下,滑动返回, 不应该在跟控制器的view上滑动返回

@@ -21,13 +21,13 @@
 {
     // 标题和背景色
     self.navigationItem.title = @"我的";
-    self.view.backgroundColor = [UIColor lightGrayColor];
+    self.view.backgroundColor = XMColor(77, 215, 193);
     // 左1
-    UIBarButtonItem *leftItem1 = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine_setting_icon_n"] highImage:[UIImage imageNamed:@"mine_setting_icon_n"] target:self action:@selector(left)];
+    UIBarButtonItem *leftItem1 = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine_setting_icon_n"] highImage:[UIImage imageNamed:@"mine_setting_icon_p"] target:self action:@selector(left)];
     self.navigationItem.leftBarButtonItem = leftItem1;
     
     // 右边
-    UIBarButtonItem *rightItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"callphone"] highImage:[UIImage imageNamed:@"callphone"] target:self action:@selector(right)];
+    UIBarButtonItem *rightItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine_msg_icon_n"] highImage:[UIImage imageNamed:@"mine_msg_icon_p"] target:self action:@selector(right)];
     self.navigationItem.rightBarButtonItem = rightItem;
     
     // 中间 titleView
