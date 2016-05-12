@@ -18,9 +18,6 @@
 		2C07CC871CB522E8007A85F6 /* UIImage+Antialias.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C07CC7E1CB522E8007A85F6 /* UIImage+Antialias.m */; };
 		2C07CC891CB522E8007A85F6 /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C07CC821CB522E8007A85F6 /* UITextField+Placeholder.m */; };
 		2C07CC8A1CB522E8007A85F6 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C07CC841CB522E8007A85F6 /* UIView+Frame.m */; };
-		2C3E23871CE01BC6005E063B /* MDQSideMeneTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3E23831CE01BC6005E063B /* MDQSideMeneTypeCell.m */; };
-		2C3E23881CE01BC6005E063B /* MDQSideMeneTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C3E23841CE01BC6005E063B /* MDQSideMeneTypeCell.xib */; };
-		2C3E23891CE01BC6005E063B /* MDQSlideSlipVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3E23861CE01BC6005E063B /* MDQSlideSlipVC.m */; };
 		2C4B6FCC1CB75055003F040F /* launch_480.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C4B6FC31CB75055003F040F /* launch_480.png */; };
 		2C4B6FCD1CB75055003F040F /* launch_568.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C4B6FC41CB75055003F040F /* launch_568.png */; };
 		2C4B6FCE1CB75055003F040F /* launch_750.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C4B6FC51CB75055003F040F /* launch_750.png */; };
@@ -43,6 +40,9 @@
 		2C787BEE1CB544BE00B3551A /* UIImage+MDQRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C787BED1CB544BE00B3551A /* UIImage+MDQRender.m */; };
 		2C787BF21CB637AF00B3551A /* MDQNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C787BF11CB637AF00B3551A /* MDQNavgationController.m */; };
 		2C7CCDE81CCA48C9001D75DB /* MDQLeftListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7CCDE71CCA48C9001D75DB /* MDQLeftListViewController.m */; };
+		2C812F461CE4800900E95EDE /* MDQSideMeneTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C812F421CE4800900E95EDE /* MDQSideMeneTypeCell.m */; };
+		2C812F471CE4800900E95EDE /* MDQSideMeneTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C812F431CE4800900E95EDE /* MDQSideMeneTypeCell.xib */; };
+		2C812F481CE4800900E95EDE /* MDQSlideSlipVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C812F451CE4800900E95EDE /* MDQSlideSlipVC.m */; };
 		CCCD673096E142AD3F1843B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D71EFC8B87A492DC06A373 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -82,11 +82,6 @@
 		2C07CC821CB522E8007A85F6 /* UITextField+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Placeholder.m"; sourceTree = "<group>"; };
 		2C07CC831CB522E8007A85F6 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		2C07CC841CB522E8007A85F6 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
-		2C3E23821CE01BC6005E063B /* MDQSideMeneTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDQSideMeneTypeCell.h; sourceTree = "<group>"; };
-		2C3E23831CE01BC6005E063B /* MDQSideMeneTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDQSideMeneTypeCell.m; sourceTree = "<group>"; };
-		2C3E23841CE01BC6005E063B /* MDQSideMeneTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDQSideMeneTypeCell.xib; sourceTree = "<group>"; };
-		2C3E23851CE01BC6005E063B /* MDQSlideSlipVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDQSlideSlipVC.h; sourceTree = "<group>"; };
-		2C3E23861CE01BC6005E063B /* MDQSlideSlipVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDQSlideSlipVC.m; sourceTree = "<group>"; };
 		2C4B6FC31CB75055003F040F /* launch_480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_480.png; sourceTree = "<group>"; };
 		2C4B6FC41CB75055003F040F /* launch_568.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_568.png; sourceTree = "<group>"; };
 		2C4B6FC51CB75055003F040F /* launch_750.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_750.png; sourceTree = "<group>"; };
@@ -122,6 +117,11 @@
 		2C787BF11CB637AF00B3551A /* MDQNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDQNavgationController.m; sourceTree = "<group>"; };
 		2C7CCDE61CCA48C9001D75DB /* MDQLeftListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDQLeftListViewController.h; sourceTree = "<group>"; };
 		2C7CCDE71CCA48C9001D75DB /* MDQLeftListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDQLeftListViewController.m; sourceTree = "<group>"; };
+		2C812F411CE4800900E95EDE /* MDQSideMeneTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDQSideMeneTypeCell.h; sourceTree = "<group>"; };
+		2C812F421CE4800900E95EDE /* MDQSideMeneTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDQSideMeneTypeCell.m; sourceTree = "<group>"; };
+		2C812F431CE4800900E95EDE /* MDQSideMeneTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDQSideMeneTypeCell.xib; sourceTree = "<group>"; };
+		2C812F441CE4800900E95EDE /* MDQSlideSlipVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDQSlideSlipVC.h; sourceTree = "<group>"; };
+		2C812F451CE4800900E95EDE /* MDQSlideSlipVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDQSlideSlipVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,7 +181,6 @@
 				2C07CC561CB52179007A85F6 /* Main(控制器) */,
 				2C07CC5E1CB52179007A85F6 /* Other */,
 				2C07CC771CB5221B007A85F6 /* AD(广告) */,
-				2C3E23811CE01BC6005E063B /* SideSlipableVC(可侧滑的VC) */,
 				2C07CC521CB52179007A85F6 /* Home(首页) */,
 				2C07CC4E1CB52179007A85F6 /* CateGories(分类) */,
 				2C07CC691CB52179007A85F6 /* Stroll(逛) */,
@@ -261,7 +260,6 @@
 		2C07CC561CB52179007A85F6 /* Main(控制器) */ = {
 			isa = PBXGroup;
 			children = (
-				2C3E23811CE01BC6005E063B /* SideSlipableVC(可侧滑的VC) */,
 				2C07CC571CB52179007A85F6 /* Controller */,
 				2C07CC581CB52179007A85F6 /* Model */,
 				2C07CC591CB52179007A85F6 /* View */,
@@ -278,6 +276,7 @@
 				2C787BEA1CB5342100B3551A /* MDQTabbarController.m */,
 				2C787BF01CB637AF00B3551A /* MDQNavgationController.h */,
 				2C787BF11CB637AF00B3551A /* MDQNavgationController.m */,
+				2C812F401CE4800900E95EDE /* SideSlipableVC(可侧滑的VC) */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -485,18 +484,6 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		2C3E23811CE01BC6005E063B /* SideSlipableVC(可侧滑的VC) */ = {
-			isa = PBXGroup;
-			children = (
-				2C3E23851CE01BC6005E063B /* MDQSlideSlipVC.h */,
-				2C3E23861CE01BC6005E063B /* MDQSlideSlipVC.m */,
-				2C3E23821CE01BC6005E063B /* MDQSideMeneTypeCell.h */,
-				2C3E23831CE01BC6005E063B /* MDQSideMeneTypeCell.m */,
-				2C3E23841CE01BC6005E063B /* MDQSideMeneTypeCell.xib */,
-			);
-			path = "SideSlipableVC(可侧滑的VC)";
-			sourceTree = "<group>";
-		};
 		2C4B6FA71CB74651003F040F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -554,6 +541,18 @@
 				2C6DF0CF1CB92952000048B8 /* MDQClassViewController.xib */,
 			);
 			path = "Choose(类别)";
+			sourceTree = "<group>";
+		};
+		2C812F401CE4800900E95EDE /* SideSlipableVC(可侧滑的VC) */ = {
+			isa = PBXGroup;
+			children = (
+				2C812F411CE4800900E95EDE /* MDQSideMeneTypeCell.h */,
+				2C812F421CE4800900E95EDE /* MDQSideMeneTypeCell.m */,
+				2C812F431CE4800900E95EDE /* MDQSideMeneTypeCell.xib */,
+				2C812F441CE4800900E95EDE /* MDQSlideSlipVC.h */,
+				2C812F451CE4800900E95EDE /* MDQSlideSlipVC.m */,
+			);
+			path = "SideSlipableVC(可侧滑的VC)";
 			sourceTree = "<group>";
 		};
 		2FBFFED9F553CE7640187ABA /* Frameworks */ = {
@@ -639,9 +638,9 @@
 				2C07CC461CB51E1A007A85F6 /* LaunchScreen.storyboard in Resources */,
 				2C4B6FD41CB75055003F040F /* LaunchImage@2x.png in Resources */,
 				2C4B6FCE1CB75055003F040F /* launch_750.png in Resources */,
+				2C812F471CE4800900E95EDE /* MDQSideMeneTypeCell.xib in Resources */,
 				2C4B6FD01CB75055003F040F /* LaunchImage-700-568h@2x.png in Resources */,
 				2C4B6FCF1CB75055003F040F /* LaunchImage-568h@2x.png in Resources */,
-				2C3E23881CE01BC6005E063B /* MDQSideMeneTypeCell.xib in Resources */,
 				2C07CC431CB51E1A007A85F6 /* Assets.xcassets in Resources */,
 				2C4B6FD21CB75055003F040F /* LaunchImage-800-667h@2x.png in Resources */,
 				2C6DF0D11CB92952000048B8 /* MDQClassViewController.xib in Resources */,
@@ -712,7 +711,8 @@
 				2C787BF21CB637AF00B3551A /* MDQNavgationController.m in Sources */,
 				2C07CC8A1CB522E8007A85F6 /* UIView+Frame.m in Sources */,
 				2C07CC871CB522E8007A85F6 /* UIImage+Antialias.m in Sources */,
-				2C3E23891CE01BC6005E063B /* MDQSlideSlipVC.m in Sources */,
+				2C812F481CE4800900E95EDE /* MDQSlideSlipVC.m in Sources */,
+				2C812F461CE4800900E95EDE /* MDQSideMeneTypeCell.m in Sources */,
 				2C787BDF1CB532CE00B3551A /* MDQCateGoriesViewController.m in Sources */,
 				2C787BE51CB5338500B3551A /* MDQShopCartViewController.m in Sources */,
 				2C07CC761CB52179007A85F6 /* main.m in Sources */,
@@ -726,7 +726,6 @@
 				2C787BEE1CB544BE00B3551A /* UIImage+MDQRender.m in Sources */,
 				2C07CC891CB522E8007A85F6 /* UITextField+Placeholder.m in Sources */,
 				2C4B6FD71CB75717003F040F /* MDQStrollViewController.m in Sources */,
-				2C3E23871CE01BC6005E063B /* MDQSideMeneTypeCell.m in Sources */,
 				2C07CC751CB52179007A85F6 /* AppDelegate.m in Sources */,
 				2C787BEB1CB5342100B3551A /* MDQTabbarController.m in Sources */,
 			);
