@@ -18,7 +18,6 @@
 		2C07CC871CB522E8007A85F6 /* UIImage+Antialias.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C07CC7E1CB522E8007A85F6 /* UIImage+Antialias.m */; };
 		2C07CC891CB522E8007A85F6 /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C07CC821CB522E8007A85F6 /* UITextField+Placeholder.m */; };
 		2C07CC8A1CB522E8007A85F6 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C07CC841CB522E8007A85F6 /* UIView+Frame.m */; };
-		2C07CC8E1CB5232E007A85F6 /* XMGFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C07CC8D1CB5232E007A85F6 /* XMGFileManager.m */; };
 		2C3E23871CE01BC6005E063B /* MDQSideMeneTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3E23831CE01BC6005E063B /* MDQSideMeneTypeCell.m */; };
 		2C3E23881CE01BC6005E063B /* MDQSideMeneTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C3E23841CE01BC6005E063B /* MDQSideMeneTypeCell.xib */; };
 		2C3E23891CE01BC6005E063B /* MDQSlideSlipVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3E23861CE01BC6005E063B /* MDQSlideSlipVC.m */; };
@@ -83,8 +82,6 @@
 		2C07CC821CB522E8007A85F6 /* UITextField+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Placeholder.m"; sourceTree = "<group>"; };
 		2C07CC831CB522E8007A85F6 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		2C07CC841CB522E8007A85F6 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
-		2C07CC8C1CB5232E007A85F6 /* XMGFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGFileManager.h; sourceTree = "<group>"; };
-		2C07CC8D1CB5232E007A85F6 /* XMGFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGFileManager.m; sourceTree = "<group>"; };
 		2C3E23821CE01BC6005E063B /* MDQSideMeneTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDQSideMeneTypeCell.h; sourceTree = "<group>"; };
 		2C3E23831CE01BC6005E063B /* MDQSideMeneTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDQSideMeneTypeCell.m; sourceTree = "<group>"; };
 		2C3E23841CE01BC6005E063B /* MDQSideMeneTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDQSideMeneTypeCell.xib; sourceTree = "<group>"; };
@@ -412,7 +409,6 @@
 		2C07CC6D1CB52179007A85F6 /* Tool(工具类) */ = {
 			isa = PBXGroup;
 			children = (
-				2C07CC8B1CB5232E007A85F6 /* File */,
 			);
 			path = "Tool(工具类)";
 			sourceTree = "<group>";
@@ -486,15 +482,6 @@
 				2C07CC841CB522E8007A85F6 /* UIView+Frame.m */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		2C07CC8B1CB5232E007A85F6 /* File */ = {
-			isa = PBXGroup;
-			children = (
-				2C07CC8C1CB5232E007A85F6 /* XMGFileManager.h */,
-				2C07CC8D1CB5232E007A85F6 /* XMGFileManager.m */,
-			);
-			path = File;
 			sourceTree = "<group>";
 		};
 		2C3E23811CE01BC6005E063B /* SideSlipableVC(可侧滑的VC) */ = {
@@ -731,7 +718,6 @@
 				2C7CCDE81CCA48C9001D75DB /* MDQLeftListViewController.m in Sources */,
 				2C787BE81CB5339B00B3551A /* MDQMineViewController.m in Sources */,
 				2C787BDC1CB532A500B3551A /* MDQHomeViewController.m in Sources */,
-				2C07CC8E1CB5232E007A85F6 /* XMGFileManager.m in Sources */,
 				2C07CC861CB522E8007A85F6 /* UIColor+Hex.m in Sources */,
 				2C6DF0D01CB92952000048B8 /* MDQClassViewController.m in Sources */,
 				2C6DF0CB1CB928EE000048B8 /* MDQADViewController.m in Sources */,
